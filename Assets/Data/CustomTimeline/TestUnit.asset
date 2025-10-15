@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21e162135cfe4d9188ae18d3d5fbc45b, type: 3}
+  m_Name: TestUnit
+  m_EditorClassIdentifier: Assembly-CSharp::TimelineDataSO
+  Version: 1000
+  TimelineGroupList:
+  - ID: 1000
+    Name: New Group_1000
+    MaxDuration: 7.1000004
+    IsLooping: 0
+    PlaybackSpeed: 5
+    TrackList:
+    - Name: New Track 1
+      ClipList:
+      - StartTime: 5.7000003
+        Duration: 1.4000001
+        NotifyList:
+        - rid: 6152250545531518983
+        - rid: 6152250545531518984
+      IsActive: 1
+    - Name: New Track 2
+      ClipList:
+      - StartTime: 0
+        Duration: 7.1000004
+        NotifyList:
+        - rid: 6152250545531518985
+      IsActive: 0
+    - Name: New Track 3
+      ClipList:
+      - StartTime: 2.3999999
+        Duration: 1.7
+        NotifyList:
+        - rid: 6152250545531518986
+        - rid: 6152250545531518987
+      IsActive: 1
+    - Name: New Track 4
+      ClipList:
+      - StartTime: 0
+        Duration: 1.5
+        NotifyList:
+        - rid: 6152250545531518988
+        - rid: 6152250545531518989
+      IsActive: 1
+  - ID: 1001
+    Name: New Group_1001
+    MaxDuration: 1.33
+    IsLooping: 0
+    PlaybackSpeed: 1
+    TrackList:
+    - Name: New Track 1
+      ClipList:
+      - StartTime: 0
+        Duration: 1
+        NotifyList: []
+      IsActive: 1
+    - Name: New Track 2
+      ClipList:
+      - StartTime: 0
+        Duration: 0.6
+        NotifyList: []
+      IsActive: 0
+    - Name: New Track 3
+      ClipList:
+      - StartTime: 0
+        Duration: 0.2
+        NotifyList: []
+      IsActive: 0
+    - Name: New Track 4
+      ClipList:
+      - StartTime: 0
+        Duration: 1
+        NotifyList: []
+      IsActive: 1
+  references:
+    version: 2
+    RefIds:
+    - rid: 6152250545531518983
+      type: {class: SpawnPrefabNotify, ns: , asm: Assembly-CSharp}
+      data:
+        prefab: {fileID: 2073035416150761678, guid: 59dda26371f9460408d5ad76bb6581bd, type: 3}
+        position: {x: 2, y: 0}
+        rotation: 45
+        scale: 3
+    - rid: 6152250545531518984
+      type: {class: LogNotify, ns: , asm: Assembly-CSharp}
+      data:
+        message: 11122
+    - rid: 6152250545531518985
+      type: {class: LogNotify, ns: , asm: Assembly-CSharp}
+      data:
+        message: Global
+    - rid: 6152250545531518986
+      type: {class: LogNotify, ns: , asm: Assembly-CSharp}
+      data:
+        message: a
+    - rid: 6152250545531518987
+      type: {class: LogNotify, ns: , asm: Assembly-CSharp}
+      data:
+        message: b
+    - rid: 6152250545531518988
+      type: {class: SpawnPrefabNotify, ns: , asm: Assembly-CSharp}
+      data:
+        prefab: {fileID: 2073035416150761678, guid: 59dda26371f9460408d5ad76bb6581bd, type: 3}
+        position: {x: -3, y: 0}
+        rotation: 0
+        scale: 2
+    - rid: 6152250545531518989
+      type: {class: LogNotify, ns: , asm: Assembly-CSharp}
+      data:
+        message: Test1

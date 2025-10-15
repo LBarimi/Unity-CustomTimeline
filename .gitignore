@@ -1,0 +1,78 @@
+# =============== Unity ===============
+
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]og/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Rr]elease/
+
+# Ignore Unity build artifacts
+*.apk
+*.unitypackage
+*.app
+*.exe
+*.ipa
+
+# Unity Collaborate files
+.collabignore
+
+# =============== Visual Studio ===============
+
+.vs/
+.vscode/
+*.csproj
+*.sln
+*.suo
+*.user
+*.unityproj
+*.pidb
+*.booproj
+*.svd
+
+# =============== OS-specific ===============
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# =============== IDEs and tools ===============
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+*.dotCover
+
+# VS Code workspace settings
+.vscode/
+
+# Build system output
+bin/
+obj/
+
+# =============== Miscellaneous ===============
+
+# Crash reports
+sysinfo.txt
+
+# User preferences and temp files
+*.log
+*.bak
+*.tmp
+*.old
+*.orig
+*.userprefs
+
+# Unit test results
+TestResults/
+*.mdb
